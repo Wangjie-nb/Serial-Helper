@@ -17,12 +17,12 @@
 
 环境：Qt 5.12.9 + MinGW（32 位或 64 位均可）
 
-用 Qt Creator 打开 `chaunkoutiaoshi.pro`，选择对应 Kit 直接构建即可。
+用 Qt Creator 打开 `chuankoutiaoshi.pro`，选择对应 Kit 直接构建即可。
 
 命令行方式：
 
 ```bat
-qmake chaunkoutiaoshi.pro -spec win32-g++
+qmake chuankoutiaoshi.pro -spec win32-g++
 mingw32-make -f Makefile.Release
 ```
 
